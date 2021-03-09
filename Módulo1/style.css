@@ -1,3 +1,15 @@
-p{
-   color: aqua; 
+#Titulo{              /* Usando o indentificador 'id' (#)*/
+   color:royalblue; 
+}
+a:active{                             /*Alterando a cor do link usando o 'a:active*/
+   background-color: red;
+}
+#principal{
+   color:green;
+}
+.texto_red{      /* Usando o class (.)*/
+   color:red;
+}
+.lista_orange{
+   color:orange;
 }

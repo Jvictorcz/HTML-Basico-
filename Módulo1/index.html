@@ -4,22 +4,26 @@
 <head>
 	<title>Minha primeira página</title>
 	<meta charset="utf-8">
-	<link href="style.css" rel="stylesheet">   <!--tag link usado pra 'linkar' com o outro file-->
+	<link href="style.css" rel="stylesheet">
+	<!--tag link usado pra 'linkar' com o outro file-->
 </head>
 
 <body>
+	<a href="#Wanda_Maximoff"> Feiticeira Escarlate <!--link para a imagem da wanda ,usando o comando 'id'-->
 
-	<h1>Título</h1>
+	<h1 id="Titulo">Título</h1>
 
 	<h2>Subtítulo</h2>
 
-	<p> Escreva o texto aqui.</p>
+	<p id="principal"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, nobis incidunt sit similique laudantium autem
+		quaerat voluptas necessitatibus, alias vero totam facere quibusdam tempora officiis ducimus dolor ex, adipisci
+		voluptate!</p>
 
-	<p>Esse é um <strong>texto em negrito.</strong></p>
+	<p class="texto_red"> Esse é um <strong>texto em negrito.</strong></p>
 
-	<p> Esse é um <em>texto em itálico.</em></p>
+	<p class="texto_red"> Esse é um <em>texto em itálico.</em></p>
 
-	<p> Esse é um <mark>texto com marcação.</mark></p>
+	<p class="texto_red"> Esse é um <mark>texto com marcação.</mark></p>
 
 	<p> Esse é um <del>texto que foi removido</del> e substituido por esse.</p>
 
@@ -43,7 +47,7 @@
 	<a
 		href="https://aodisseia.com/wandavision-serie-season-finale-disney-plus-marvel/?utm_source=rss&utm_medium=rss&utm_campaign=wandavision-serie-season-finale-disney-plus-marvel">
 
-		<img src="imagens/wanda_max.jpg" alt="Wanda Maximoff"> <!-- Transformamos a imagem em um link-->
+		<img id="Wanda_Maximoff" src="imagens/wanda_max.jpg" alt="Wanda Maximoff"> <!-- Transformamos a imagem em um link-->
 
 	</a>
 
@@ -52,9 +56,9 @@
 
 	<ul>
 		<!--"<ul> tag de lista não ordenada"-->
-		<li>Macarrão</li> <!-- Tag list item-->
-		<li>Cebola</li>
-		<li>Alho</li>
+		<li class="lista_orange">Macarrão</li> <!-- Tag list item-->
+		<li class="lista_orange">Cebola</li>
+		<li class="lista_orange">Alho</li>
 	</ul>
 
 	<h2>Ranking dos melhores Vingadores</h2>
@@ -79,7 +83,7 @@
 		</ol>
 
 	</ol>
-	
+
 	<hr>
 	<!--linha horizontal-->
 	<table>
