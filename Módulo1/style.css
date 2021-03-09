@@ -2,10 +2,10 @@
    color:royalblue; 
 }
 a:active{                             /*Alterando a cor do link usando o 'a:active*/
-   background-color: red;
+   background-color:rgb(212, 26, 26);
 }
 #principal{
-   color:green;
+   color:blue
 }
 .texto_red{      /* Usando o class (.)*/
    color:red;
