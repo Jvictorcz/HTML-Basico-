@@ -1,0 +1,48 @@
+#Titulo{              /* Usando o indentificador 'id' (#)*/
+   color:rgb(7, 45, 95)
+}
+a:active{                             /*Alterando a cor do link usando o 'a:active*/
+   background-color:rgb(212, 26, 26);
+}
+div{
+   /* background-image: url(../Fundos/fundo-abstrato.jpg);   /* Aula de background
+   background-position: center;
+   background-attachment: fixed; 
+   background-repeat: no-repeat;
+   background-size: cover; */
+}
+.sub_div{
+   color:green;
+}
+
+#principal{
+   color:sienna;
+}
+.texto_red{      /* Usando o class (.)*/
+   color:red;
+}
+.lista_orange{
+   color:orange;
+}
+
+/* unidades de medida(fixas) */
+#cm{
+  background-color:red;
+   height:1cm;
+   width:1cm;
+}
+#mm{
+   background-color:blue;
+   height:1mm;
+   width:1mm;
+}
+#in{
+   background-color:red;
+   height:1in;
+   width:1in;
+}
+#px{
+   background-color: blue;
+   height: 10px;
+   width:10px;
+}
