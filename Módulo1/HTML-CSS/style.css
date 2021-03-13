@@ -46,3 +46,34 @@ div{
    height: 10px;
    width:10px;
 }
+#pt{
+   background-color:red;
+   height: 10pt;
+   width:10pt;
+}
+#pc{
+   background-color: blue;
+   height: 1pc;
+   width:1pc;
+}
+
+/* Unidades de medida (referência) */
+
+ /* html{ 
+   font-size: 20px;  
+}  */
+
+/* "em" equivale ao tamanho do elemento do container e o "rem" equivale ao tamanho do elemento raiz(HTML) */
+/* a fonte do inside  herda o tamanho da fonte "pai" que no caso é a container ,utilizando o (em)*/
+/* "vw" se refere a largura da janela e o "vh" se refere a altura da janela*/
+/*"vmin" se refere a menor dimensão da altura/largura */
+/* "vmax" se refere a maior dimensão da altura/largura */
+/* uso do %*/  
+.container{
+   width: 80%;
+   background: red;
+}
+.inside{
+   width: 80%;
+   background: blue;
+}
