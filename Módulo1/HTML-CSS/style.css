@@ -110,8 +110,8 @@ div{
    color: white;
    background-color:green; 
    border-radius: 50%;
-   transition: 0.3s ease;
-   overflow: hidden;
+   transition: 0.3s ease; /*Dúvida*/
+   overflow: hidden; 
    float: left;
 }
 
