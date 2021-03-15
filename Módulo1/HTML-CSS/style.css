@@ -71,10 +71,12 @@ div{
 /* uso do %*/  
 .container{
    width: 80%;
+   font-size: 25px;
    background: red;
 }
 .inside{
    width: 80%;
+   font-size: 1em;
    background: blue;
 }
 
@@ -94,19 +96,28 @@ div{
 /* Border */
 
 .borda{
-
+   font-size: 25px;
    border-width: 10px;
-   border-style: solid;
-   border-color: red;
+   border-color: red green yellow grey;
+ 
    
 }
 
 .quadrado{
-   
-   height:200px;
-   width:200px;
+   margin: 20px;
+   height:100px;
+   width:100px;
    color: white;
-   background-color:blue; 
+   background-color:green; 
    border-radius: 50%;
-   
+   transition: 0.3s ease;
+   overflow: hidden;
+   float: left;
 }
+
+
+.dotted { border-top-style: dotted; border-color: red;}
+.dashed {border-style: dashed;  color:red}
+.solid {border-style: solid; color: black;}
+.none {border-style: none;}
+.hidden {border-style: hidden;}
