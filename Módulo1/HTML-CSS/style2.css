@@ -1,0 +1,21 @@
+/* Ajustes de texto */
+/*propriedades: text-align:center,left,right,justify;
+                text-transform: uppercase,lowercase,capitalize;
+                text-indent (parágrafo):
+                text-decoration: underline,overline,line-through,none(para links) 
+                text-shadow(sombra)*/
+                
+p{
+    text-align: justify;
+    text-indent: 35px;
+    /* letter-spacing: 1.5px ; distanciamento entre as letras
+    line-height: 1.5 ;   altura da linha (é um multiplicador da altura da fonte)
+    word-spacing:3px ; distanciamento entre as palavras */
+  
+    /*  Fontes  */ 
+    font-family: Times ;
+    font-style: normal;
+    font-weight:bold;
+    font-variant: small-caps;
+}
+

@@ -1,17 +1,18 @@
 #Titulo{              /* Usando o indentificador 'id' (#)*/
    color:rgb(7, 45, 95)
 }
-a:active{                             /*Alterando a cor do link usando o 'a:active*/
-   background-color:rgb(212, 26, 26);
-}
-div{
-   /* background-image: url(../Fundos/fundo-abstrato.jpg);   /* Aula de background
+/* a:active{                             Alterando a cor do link usando o 'a:active'
+   background-color:rgb(212, 26, 26); 
+}*/
+/* Aula de background*/
+/* div{
+    background-image: url(../Fundos/fundo-abstrato.jpg);   
    background-position: center;
    background-attachment: fixed; 
    background-repeat: no-repeat;
-   background-size: cover; */
-}
-.sub_div{
+   background-size: cover; 
+} */
+.texto_green{
    color:green;
 }
 
@@ -103,21 +104,47 @@ div{
    
 }
 
-.quadrado{
+ .quadrado{
    margin: 20px;
    height:100px;
    width:100px;
    color: white;
    background-color:green; 
    border-radius: 50%;
-   transition: 0.3s ease; /*Dúvida*/
-   overflow: hidden; 
-   float: left;
-}
+   /* transition: 0.3s ease; Dúvida */
+   /* overflow: hidden; 
+   float: left;  */
+ }
 
-
+/* Tipos de border*/
 .dotted { border-top-style: dotted; border-color: red;}
 .dashed {border-style: dashed;  color:red}
 .solid {border-style: solid; color: black;}
 .none {border-style: none;}
 .hidden {border-style: hidden;}
+
+/* Box Model */
+
+/* body{
+  padding: 0;
+   margin: 0;
+} */
+
+.square{
+   width: 100px;
+   height: 100px;
+   background-color: yellow;
+   border:10px solid blue;
+   /* padding: 10px; */
+
+   /* box-sizing: border-box; */
+
+}
+.square2{
+   width: 120px;
+   height: 100px;
+   background-color: yellow;
+  
+
+}
+ 
