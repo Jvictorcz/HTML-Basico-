@@ -96,10 +96,10 @@
 
 /* Border */
 
-.borda{
+.borda {
    font-size: 25px;
-   border-width: 10px;
-   border-color: red green yellow grey;
+   border-width: 10px;   
+   border-color: red green yellow blue;
  
    
 }
